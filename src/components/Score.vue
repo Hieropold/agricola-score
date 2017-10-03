@@ -16,86 +16,86 @@
 
       <tr>
         <td class="score__label">Поля</td>
-        <td><input type="number" v-model="fields1"></td>
-        <td><input type="number" v-model="fields2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="fields1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="fields2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Выпасы</td>
-        <td><input type="number" v-model="grazing1"></td>
-        <td><input type="number" v-model="grazing2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="grazing1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="grazing2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Зерно</td>
-        <td><input type="number" v-model="grain1"></td>
-        <td><input type="number" v-model="grain2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="grain1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="grain2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Овощи</td>
-        <td><input type="number" v-model="vegetables1"></td>
-        <td><input type="number" v-model="vegetables2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="vegetables1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="vegetables2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Овцы</td>
-        <td><input type="number" v-model="sheep1"></td>
-        <td><input type="number" v-model="sheep2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="sheep1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="sheep2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Свиньи</td>
-        <td><input type="number" v-model="pigs1"></td>
-        <td><input type="number" v-model="pigs2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="pigs1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="pigs2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Коровы</td>
-        <td><input type="number" v-model="cows1"></td>
-        <td><input type="number" v-model="cows2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="cows1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="cows2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Свободные ячейки</td>
-        <td><input type="number" v-model="freecells1"></td>
-        <td><input type="number" v-model="freecells2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="freecells1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="freecells2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Огороженный хлева</td>
-        <td><input type="number" v-model="cowsheds1"></td>
-        <td><input type="number" v-model="cowsheds2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="cowsheds1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="cowsheds2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Комнаты в мазанке</td>
-        <td><input type="number" v-model="clayrooms1"></td>
-        <td><input type="number" v-model="clayrooms2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="clayrooms1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="clayrooms2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Комнаты в доме</td>
-        <td><input type="number" v-model="stonerooms1"></td>
-        <td><input type="number" v-model="stonerooms2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="stonerooms1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="stonerooms2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Родичи</td>
-        <td><input type="number" v-model="workers1"></td>
-        <td><input type="number" v-model="workers2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="workers1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="workers2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Улучшения</td>
-        <td><input type="number" v-model="improvements1"></td>
-        <td><input type="number" v-model="improvements2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="improvements1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="improvements2"></td>
       </tr>
 
       <tr>
         <td class="score__label">Бонусы</td>
-        <td><input type="number" v-model="bonus1"></td>
-        <td><input type="number" v-model="bonus2"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="bonus1"></td>
+        <td><input @focus="$event.target.select()" type="number" v-model="bonus2"></td>
       </tr>
 
       <tr>
