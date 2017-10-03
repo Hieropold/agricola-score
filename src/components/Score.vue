@@ -199,16 +199,6 @@
     font-weight: normal;
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
   a {
     color: #42b983;
   }
@@ -217,16 +207,22 @@
     margin: 0 auto;
   }
 
+  table td {
+    width: 30%;
+  }
+
   .score__label {
     text-align: right;
     padding-right: 1rem;
+    font-size: 2rem;
   }
 
   input {
-    width: 5rem;
+    width: 90%;
     height: 3rem;
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   button {
