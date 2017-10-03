@@ -15,85 +15,85 @@
       <tbody>
 
       <tr>
-        <td>Поля</td>
+        <td class="score__label">Поля</td>
         <td><input v-model="fields1"></td>
         <td><input v-model="fields2"></td>
       </tr>
 
       <tr>
-        <td>Выпасы</td>
+        <td class="score__label">Выпасы</td>
         <td><input v-model="grazing1"></td>
         <td><input v-model="grazing2"></td>
       </tr>
 
       <tr>
-        <td>Зерно</td>
+        <td class="score__label">Зерно</td>
         <td><input v-model="grain1"></td>
         <td><input v-model="grain2"></td>
       </tr>
 
       <tr>
-        <td>Овощи</td>
+        <td class="score__label">Овощи</td>
         <td><input v-model="vegetables1"></td>
         <td><input v-model="vegetables2"></td>
       </tr>
 
       <tr>
-        <td>Овцы</td>
+        <td class="score__label">Овцы</td>
         <td><input v-model="sheep1"></td>
         <td><input v-model="sheep2"></td>
       </tr>
 
       <tr>
-        <td>Свиньи</td>
+        <td class="score__label">Свиньи</td>
         <td><input v-model="pigs1"></td>
         <td><input v-model="pigs2"></td>
       </tr>
 
       <tr>
-        <td>Коровы</td>
+        <td class="score__label">Коровы</td>
         <td><input v-model="cows1"></td>
         <td><input v-model="cows2"></td>
       </tr>
 
       <tr>
-        <td>Свободные ячейки</td>
+        <td class="score__label">Свободные ячейки</td>
         <td><input v-model="freecells1"></td>
         <td><input v-model="freecells2"></td>
       </tr>
 
       <tr>
-        <td>Огороженный хлева</td>
+        <td class="score__label">Огороженный хлева</td>
         <td><input v-model="cowsheds1"></td>
         <td><input v-model="cowsheds2"></td>
       </tr>
 
       <tr>
-        <td>Комнаты в мазанке</td>
+        <td class="score__label">Комнаты в мазанке</td>
         <td><input v-model="clayrooms1"></td>
         <td><input v-model="clayrooms2"></td>
       </tr>
 
       <tr>
-        <td>Комнаты в доме</td>
+        <td class="score__label">Комнаты в доме</td>
         <td><input v-model="stonerooms1"></td>
         <td><input v-model="stonerooms2"></td>
       </tr>
 
       <tr>
-        <td>Родичи</td>
+        <td class="score__label">Родичи</td>
         <td><input v-model="workers1"></td>
         <td><input v-model="workers2"></td>
       </tr>
 
       <tr>
-        <td>Улучшения</td>
+        <td class="score__label">Улучшения</td>
         <td><input v-model="improvements1"></td>
         <td><input v-model="improvements2"></td>
       </tr>
 
       <tr>
-        <td>Бонусы</td>
+        <td class="score__label">Бонусы</td>
         <td><input v-model="bonus1"></td>
         <td><input v-model="bonus2"></td>
       </tr>
@@ -213,9 +213,29 @@
     color: #42b983;
   }
 
+  table {
+    margin: 0 auto;
+  }
+
+  .score__label {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  input {
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
   button {
     width: 100%;
-    height: 3em;
-    margin-top: 0.5em;
+    height: 5rem;
+    margin-top: 0.5rem;
+    background-color: #006b0b;
+    color: white;
+    border: 0;
+    font-size: 2rem;
   }
 </style>
