@@ -63,7 +63,7 @@
       </tr>
 
       <tr>
-        <td class="score__label">Огороженный хлева</td>
+        <td class="score__label">Огороженные хлева</td>
         <td><input @focus="$event.target.select()" type="number" v-model="cowsheds1"></td>
         <td><input @focus="$event.target.select()" type="number" v-model="cowsheds2"></td>
       </tr>
