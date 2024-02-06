@@ -1,27 +1,28 @@
 # agricola-score
 
-> Helper app for calculating score in Agricola tabletop game.
+Helper app for calculating score in Agricola tabletop game.
 
-## Build Setup
+## Available Scripts
 
-``` bash
-# install dependencies
-npm install
+In the project directory, you can run:
 
-# serve with hot reload at localhost:8080
-npm run dev
+### `npm start`
 
-# build for production with minification
-npm run build
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# build for production and view the bundle analyzer report
-npm run build --report
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-# run unit tests
-npm run unit
+### `npm test`
 
-# run all tests
-npm test
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
