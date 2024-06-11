@@ -4,7 +4,7 @@
 scp ./agricola.tar.gz agricola:~
 
 # Restart images on EC2 instances
-ssh agricola './update.sh'
+ssh agricola './update-agricola.sh'
 
 # Cleanup
 ssh agricola 'docker system prune -f'
